@@ -100,8 +100,8 @@ let loseScreen;
 let parallaxLayers = []; // Preloaded parallax layer defs [{ img, factor }, ...]
 
 // Make URLs absolute so they can’t accidentally resolve relative to /src/...
-const LEVELS_URL = new URL("./data/levels.json", window.location.href).href;
-const TUNING_URL = new URL("./data/tuning.json", window.location.href).href;
+const LEVELS_URL = "./data/levels.json";
+const TUNING_URL = "./data/tuning.json";
 
 // This must match a level id in levels.json
 const START_LEVEL_ID = "ex5_level1";
